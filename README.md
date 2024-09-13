@@ -64,7 +64,7 @@ This project was inspired by https://github.com/autodesk-platform-services/aps-p
 
   - Open a blank report in PowerBI (or use an existing report, your choice!)
 
-  - Go to "Get Data" and type "ACC Project Issues". The custom connector should show up as "ACC Issues (Beta) (Custom)".
+  - Go to "Get Data" and type "ACC Issues". The custom connector should show up as "ACC Issues (Beta) (Custom)".
 
     - Specify the project ID whose issues you want to load.
 
