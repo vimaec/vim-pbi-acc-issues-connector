@@ -1,0 +1,5 @@
+{
+  "powerquery.sdk.defaultQueryFile": "${workspaceFolder}\\AccIssuesConnector.query.pq",
+  "powerquery.sdk.defaultExtension": "${workspaceFolder}\\bin\\AnyCPU\\Debug\\AccIssuesConnector.mez",
+  "powerquery.general.mode": "SDK"
+}
