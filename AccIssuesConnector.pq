@@ -28,12 +28,11 @@ shared AccIssuesConnector.Contents = (projectId as text) as table =>
         expandedDetails = Table.ExpandRecordColumn(
             expandedFirstLinkedDocument,
             "details",
-            {"position", "objectId"}),
+            {"position", "objectId", "externalId"}),
         expandedPosition = Table.ExpandRecordColumn(
             expandedDetails,
             "position",
-            {"x", "y", "z"}
-        )
+            {"x", "y", "z"})
     in
         expandedPosition;
 
