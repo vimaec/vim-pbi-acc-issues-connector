@@ -34,7 +34,7 @@ This project was inspired by https://github.com/autodesk-platform-services/aps-p
 
 - Build the connector (.mez file) by opening a terminal in this directory, then run `dotnet build`.
 
-  - **USEFUL:** The file `AccIssuesConnector.proj` contains a build step which will automatically copy the built artifact (`bin\AnyCPU\Debug\AccIssuesConnector.mez`) into the appropriate location so that PowerBI can load it automatically (`%USERPROFILE%\Documents\Microsoft Power BI Desktop\Custom Connectors\AccIssuesConnector.mez`).
+  - **USEFUL:** The file `AccIssuesConnector.proj` contains a build step which will automatically copy the built artifact (`bin\AnyCPU\Debug\AccIssuesConnector.mez`) into the appropriate location so that PowerBI can load it automatically (`%USERPROFILE%\Documents\Power BI Desktop\Custom Connectors\AccIssuesConnector.mez`).
 
   - **IMPORTANT:** the .mez file should not be shared with 3rd parties; it includes the _secrets.json_ file with your APS application credentials.
 
